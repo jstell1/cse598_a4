@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Hotels xmlns="https://jstell1.github.io/cse598_a4"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema"
+    xsi:schemaLocation="https://jstell1.github.io/cse598_a4/Hotels.xsd"
+>
+    <Hotel Rating="4.2">
+        <Name>Westin</Name>
+        <Phone>480-968-8885</Phone>
+        <Phone> 800-937-8461</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>11</Number>
+            <Street>E. 7th St</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85281</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel>
+        <Name>Arizona Grand Resort &amp; Spa</Name>
+        <Phone>855-303-3288</Phone>
+        <Phone>877-800-4888</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>8000</Number>
+            <Street>S. Arizona Grand Parkway</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85044</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel Rating="3.9">
+        <Name>Hilton Phoenix Tapatio Cliffs Resort</Name>
+        <Phone>855-605-0316</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>11111</Number>
+            <Street>N. 7th St</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85020</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel>
+        <Name>Embassy Suites by Hilton Phoenix Scottsdale</Name>
+        <Phone>855-605-0319</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>4415</Number>
+            <Street>E. Paradise Village Pkwy South</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85032</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel Rating="4.5">
+        <Name>Hampton Inn &amp; Suites Phoenix Downtown</Name>
+        <Phone>855-605-0317</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>77</Number>
+            <Street>E. Polk St</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85004</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel Rating="4.6">
+        <Name>Drury Inn &amp; Suites Phoenix Happy Valley</Name>
+        <Phone>844-731-2365</Phone>
+        <Phone>888-324-1835</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>2335</Number>
+            <Street>W. Pinnacle Peak Rd</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85027</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel>
+        <Name>Gila River Resorts &amp; Casinos - Vee Quiva</Name>
+        <Phone>602-698-8645</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>15091</Number>
+            <Street>S. Komatke Lane</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85339</Zip>
+        </Address>
+    </Hotel>
+
+     <Hotel Rating="3.9">
+        <Name>Doubletree Suites By Hilton Hotel Phoenix</Name>
+        <Phone>855-605-0318</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>320</Number>
+            <Street>N. 44th St</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85008</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel>
+        <Name>Crowne Plaza Phoenix Airport - Phx by IHG</Name>
+        <Phone>877-859-5095</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>4300</Number>
+            <Street>E. Washington St</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85034</Zip>
+        </Address>
+    </Hotel>
+
+    <Hotel Rating="4.5">
+        <Name>Royal Palms Resort and Spa</Name>
+        <Phone>602-878-9694</Phone>
+        <Phone>602-283-1234</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>5200</Number>
+            <Street>E. Camelback Rd</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85018</Zip>
+        </Address>
+    </Hotel>
+
+     <Hotel>
+        <Name>The Clarendon Hotel and Spa</Name>
+        <Phone>602-698-8724</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>401</Number>
+            <Street>W. Clarendon Ave</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85013</Zip>
+        </Address>
+    </Hotel>
+</Hotels>

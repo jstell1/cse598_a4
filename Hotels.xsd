@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema 
+    xmlns="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="https://jstell1.github.io/cse598_a4"
+    elementFormDefault="qualified">
+
+    <element name="Hotels">
+        <complexType>
+            <sequence>
+                <element name="Hotel" minOccurs="0" maxOccurs="unbounded">
+                    <complexType>
+                        <sequence>
+                            <element name="Name" type="string" minOccurs="1" maxOccurs="1"/>
+                            <element name="Phone" type="string" minOccurs="1" maxOccurs="unbounded"/>
+                            <element name="Address" minOccurs="1" maxOccurs="unbounded">
+                                <complexType>
+                                    <sequence>
+                                        <element name="Number" type="integer" minOccurs="1" maxOccurs="1"/>
+                                        <element name="Street" type="string" minOccurs="1" maxOccurs="1"/>
+                                        <element name="City" type="string" minOccurs="1" maxOccurs="1"/>
+                                        <element name="State" type="string" minOccurs="1" maxOccurs="1"/>
+                                        <element name="Zip" type="integer" minOccurs="1" maxOccurs="1"/>
+                                    </sequence>
+                                    <attribute name="NearestAirport" type="string" use="required"/>
+                                </complexType>
+                            </element>
+                        </sequence>
+                    </complexType>
+                        
+                </element>
+            </sequence>
+            <attribute name="Rating" type="double" use="optional"/>
+        </complexType>
+    </element>
+</schema>
