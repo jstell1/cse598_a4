@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Hotel xmlns="https://jstell1.github.io/cse598_a4"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="https://jstell1.github.io/cse598_a4/Hotels.xsd"
 >
     <Hotel Rating="4.2">
@@ -139,3 +139,4 @@
         </Address>
     </Hotel>
 </Hotel>
+
