@@ -26,10 +26,11 @@
                             </element>
                         </sequence>
                     </complexType>
-                        
+                    <attribute name="Rating" type="double" use="optional"/> 
                 </element>
             </sequence>
-            <attribute name="Rating" type="double" use="optional"/>
+            
         </complexType>
     </element>
+
 </schema>
