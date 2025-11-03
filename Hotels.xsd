@@ -25,8 +25,8 @@
                                 </complexType>
                             </element>
                         </sequence>
+                        <attribute name="Rating" type="double" use="optional"/> 
                     </complexType>
-                    <attribute name="Rating" type="double" use="optional"/> 
                 </element>
             </sequence>
             
@@ -34,3 +34,4 @@
     </element>
 
 </schema>
+
